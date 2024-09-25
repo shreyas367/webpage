@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY</title>
+    <style>
+.navbar{
+    background-color: rgb(169, 133, 170); 
+        
+        
+      
+       height: 80px;
+    width: 100%; 
+display: flex;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-search{display: flex;
+ background-color:rgb(169, 133, 170); 
+   
+width: 620px;
+height: 40px;
+border-radius: 6px;
+justify-content: space-evenly;
+margin-left: 20px;}
+
+.search-select{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-input{
+    width: 25%;
+    font-size: 1rem;
+    border: none;
+}
+
+
+
+/* #panel content  */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:#f3f3f3;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-option{
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 10px;
+width: 70%;
+font-size: 0.85rem;
+}
+.panel-deals{
+font-size: 0.9rem;
+}
+
+/* main part  */
+
+.herosec{
+background-color:#376E6F;
+height: 400px;
+background-size: cover;
+display: flex;
+align-items: flex-end;
+justify-content: center;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 0.85rem;
+    bottom: 25px;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color:white;
+    padding: 20px 0px 15px;
+    margin-top: 12px;
+}
+.square{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: grey;
+    height: 740px;
+}
+.box-img{
+    height: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: contain;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.footer{
+    margin-top: 20px;
+
+}
+
+
+.foot-panel1{
+    background-color: #37475a;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    font-size: 0.6rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    font-size: 0.80rem;
+}
+ul{
+    margin-top: 20px;
+}.foot-panel3{
+    background-color: #222f3d;
+    color: antiquewhite;
+    border-top: 2px white solid;
+    height: 70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+    </style>
+</head>
+<body>
+    
+<header>
+    <div class="navbar">
+        <div class="nav-search"></div>
+            <select class="search-select">
+                <option>All</option>
+            </select>
+            <input placeholder="Search Here" class="search-input">
+            <div class="search-icon">
+               &#128269:
+            </div>
+            <div class="logo"></div>
+        </div>
+
+        </div>
+
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-option">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+        <p>Sell</p>
+        <p>Gift Cards</p>
+            </div>
+            <div class="panel-deals">
+                Shop deals in Electrnics
+            </div>
+        </div>
+
+</header>
+
+<div class="herosec">
+    <div class="hero-msg">
+    Hello viewer my self Shreyas Ranjan
+   ( Developer of This Web Page)   
+</div>
+</div>
+
+<div class="square">
+    <div class="box1 box">
+<div class="box-content">
+    <h2>Health & Personal Care</h2>
+    <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+    <h4>See more</h4>
+</div>
+    </div>
+    <div class="box2 box">
+         <div class="box-content">
+        <h2>Health & Personal Care</h2>
+        <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+        <h4>See more</h4></div>
+    </div>
+    <div class="box3 box">
+        <div class="box-content">
+    <h2>ITEM 3</h2>
+    <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+    <h4>See more</h4></div>
+</div>
+    <div class="box4 box">
+        <div class="box-content">
+    <h2>ITEM 4</h2>
+    <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+    <h4>See more</h4></div>
+</div>
+    <div class="box5 box">
+        <div class="box-content">
+            <h2>ITEM 5</h2>
+            <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+            <h4>See more</h4>
+        </div>
+            </div>
+            <div class="box6 box">
+                 <div class="box-content">
+                <h2>ITEM 6</h2>
+                <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+                <h4>See more</h4></div>
+            </div>
+            <div class="box7 box">
+                <div class="box-content">
+            <h2>ITEM 7</h2>
+            <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+            <h4>See more</h4></div>
+        </div>
+            <div class="box8 box">
+                <div class="box-content">
+            <h2>ITEM 8</h2>
+            <div class="box-img" style="background-image: url('personal\ health.jpeg');"></div>
+            <h4>See more</h4></div>
+        </div>
+</div>
+
+<footer>
+    <div class="foot-panel1">
+        Back to Top
+    </div>
+
+    <div class="foot-panel2">
+        <ul>
+            <p> Get to Know Us</p>
+            <a> About Shreyas</a>
+            <a > Careers</a>
+            <a > Press Releases</a>
+            <a >   Related Science</a>
+        </ul>
+        <ul>
+            <p> Get to Know Us</p>
+            <a> About Shreyas</a>
+            <a > Careers</a>
+            <a > Press Releases</a>
+            <a >   Related Science</a>
+         </ul>
+         <ul>
+            <p> Get to Know Us</p>
+            <a> About Shreyas</a>
+            <a > Careers</a>
+            <a > Press Releases</a>
+            <a >   Related Science</a>
+         </ul>
+         <ul>
+            <p> Get to Know Us</p>
+            <a> About Shreyas</a>
+            <a > Careers</a>
+            <a > Press Releases</a>
+            <a >   Related Science</a>
+
+         </ul>
+
+    </div>
+
+
+    <div class="foot-panel3">
+        <div class="logo"></div>
+    </div>
+</footer>
+    
+</body>
+</html>
